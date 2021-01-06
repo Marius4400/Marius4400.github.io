@@ -1,0 +1,80 @@
+<html>
+
+  <head>
+      <title>Le Japon : Formulaire de contact</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <a id="debut"></a>
+
+      <h1 class="h1">Le Japon : formulaire de contact</h1>
+
+      <ul>
+        <li><a href="Histoire.html">Histoire</a></li>
+        <li><a href="Tourisme.html">Tourisme</a></li>
+        <li><a href="Politique.html">Politique</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="Economie.html">Économie</a></li>
+        <li><a href="Demographie.html">Démographie</a></li>
+        <li><a href="Formulaire_contact.html">Formulaire de contact</a></li>
+      </ul>
+
+      <img id="drapeau" src="drapeau.png">
+      
+      <form>
+        <div id="centre">
+          <h2 class="h2">Formulaire de contact</h2><br>
+          <h3 class="h3">Personne qui voyage :</h3>
+          Nom : <input type="text" name="TxtNom" size="50" maxlenght="20"
+          placeholder="Entrez votre nom ici" autofocus required><br>
+          Prénom : <input type="text" name="TxtNomPren" size="50" maxlenght="20"
+          placeholder="Entrez votre prénom ici" autofocus required><br></form>
+          Sexe : <input type="radio" name="RbtnSexe" value="Masculin" checked>Masculin<input type="radio" name="RbtnSexe" value="Féminin">Féminin<br>
+          Date de naissance : <input type="date" name="txtnai"><br>
+          Lieux de résidence (pays de résidence) :<br>
+          Ville : <input type="text"size="50" maxlength="20"
+          placeholder="Nom de la ville de résidence" autofocus required><br>
+          Rue et numéro : <input type="text"size="50" maxlength="20"
+          placeholder="Nom de la rue et numéro de résidence" autofocus required><br>
+          Code postal : <input type="text" name="TxtCP" pattern="[0-9]{4}"
+          placeholder="Entrez votre code postal ici" autofocus required><br>
+          Numéro de téléphone : <input type="tel" name="txttelephone"
+          placeholder="Entrez votre numéro de téléphone" autofocus required><br>
+          Email : <input type="email" name="Txtmail" required autocomplete="additional-name"
+          placeholder="Entrez votre adresse email" autofocus required><br>         
+          Date d'arrivée : <input type="date" name="Txtin"><br>
+          Date de départ : <input type="date" name="Txtout"><br>
+          Raison du voyage : <select name="Raison">
+           <option value="Tourisme">Tourisme</option>
+           <option value="Travail">Travail</option>
+           <option value="Autres">Autres</option>
+           </select><br>
+           Lieux de résidence (Japon) :<br>
+           <input type="text" size="50" maxlength="20"
+           placeholder="Nom de la ville de résidence" autofocus required><br>
+           <input type="text" size="50" maxlength="20"
+           placeholder="Nom de l'hôtel ou de l'endroit où dormir" autofocus required><br>
+           <h3 class="h3">Personne de références en cas de problémes :</h3>
+          Nom de la personne : <input type="text" name="TxtNom" size="50" maxlenght="20"
+          placeholder="Entrez ici le nom" autofocus required><br>
+          Prénom de la personne : <input type="text" name="TxtNomPren" size="50" maxlenght="20"
+          placeholder="Entrez ici le prénom" autofocus required><br></form>
+          Numéro de téléphone : <input type="tel" name="txttelephone"
+          placeholder="Entrez le numéro de teléphone" autofocus required><br>
+          Email : <input type="email" name="Txtmail" required autocomplete="additional-name"
+          placeholder="Entrez l'adresse email" autofocus required><br>   
+          <input type="submit" value="Envoyer">
+          <input type="reset" value="Supprimer"><br><br>
+          <a href="#debut">Retour en haut de la page</a>
+        </div>
+     </form>
+
+     <div id="droite-centre">
+      <img src="formulaire.jfif" id="formulaire">
+    </div>
+      
+  </body>
+
+</html>
